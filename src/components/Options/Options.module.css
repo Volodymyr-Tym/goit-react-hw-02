@@ -1,0 +1,37 @@
+.options {
+  display: flex;
+  column-gap: 32px;
+  background-color: #def2fa;
+  padding: 16px;
+}
+
+.btn {
+  padding: 10px 0;
+  border-radius: 10px;
+  border: 2px solid #111111;
+  background-color: #8a8a8a;
+  width: 100px;
+
+  font-size: 18px;
+
+  transition-property: filter, transform, color;
+  transition-duration: 250ms;
+}
+.btn:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+  color: #111111;
+}
+
+.btn.good {
+  background-color: rgb(100, 200, 100);
+}
+.btn.neutral {
+  background-color: rgb(200, 200, 100);
+}
+.btn.bad {
+  background-color: rgb(200, 100, 100);
+}
+.btn.reset {
+  margin-left: 50px;
+}

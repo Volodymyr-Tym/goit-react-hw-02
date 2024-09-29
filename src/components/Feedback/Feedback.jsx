@@ -1,11 +1,13 @@
+import styles from './Feedback.module.css';
+
 const Feedback = ({ feedbacks, totalFeedback, positiveFeedback }) => {
   return (
-    <ul>
-      <li>Good: {feedbacks.good}</li>
-      <li>Neutral: {feedbacks.neutral}</li>
-      <li>Bad: {feedbacks.bad}</li>
-      <li>Total: {totalFeedback}</li>
-      <li>Positive: {positiveFeedback}%</li>
+    <ul className={styles.feedback_list}>
+      <li className={styles.feedback_item}>Good: {feedbacks.good}</li>
+      <li className={styles.feedback_item}>Neutral: {feedbacks.neutral}</li>
+      <li className={styles.feedback_item}>Bad: {feedbacks.bad}</li>
+      <li className={styles.feedback_item}>Total: {totalFeedback}</li>
+      <li className={styles.feedback_item}>Positive: {positiveFeedback}%</li>
     </ul>
   );
 };

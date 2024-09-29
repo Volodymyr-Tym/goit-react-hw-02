@@ -1,0 +1,11 @@
+.notification {
+  background-color: #def2fa;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px;
+  min-height: 250px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: start;
+}

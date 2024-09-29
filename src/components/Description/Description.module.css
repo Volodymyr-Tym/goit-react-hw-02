@@ -1,0 +1,21 @@
+.description {
+  position: relative;
+  background-color: #fce6e6;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 16px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+  margin-bottom: 12px;
+
+  font-size: 48px;
+}
+
+.text {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
